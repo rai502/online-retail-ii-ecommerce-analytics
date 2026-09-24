@@ -282,10 +282,23 @@ Drills further into the EIRE decline through:
 - Product-level observations
 - Volume and product performance analysis
 
-### Dashboard Screenshots
+## Dashboard Preview
 
-Screenshots of the Power BI report are included in the
-`Screenshots/` folder.
+### Executive Overview
+
+![Executive Overview](Screenshots/executive_overview.png)
+
+### Revenue & Market Performance
+
+![Market Performance](Screenshots/market_performance.png)
+
+### EIRE Analysis
+
+![EIRE Analysis](Screenshots/eire_analysis.png)
+
+### Product Performance
+
+![Product Performance](Screenshots/product_performance.png)
 
 ## Repository Structure
 
@@ -403,20 +416,3 @@ The focus of the project is not only on producing metrics, but on
 investigating business questions, validating the underlying data, identifying
 drivers, and communicating findings in a business context.
 
-## Dashboard Preview
-
-### Executive Overview
-
-![Executive Overview](Screenshots/executive_overview.png)
-
-### Revenue & Market Performance
-
-![Market Performance](Screenshots/market_performance.png)
-
-### EIRE Analysis
-
-![EIRE Analysis](Screenshots/eire_analysis.png)
-
-### Product Performance
-
-![Product Performance](Screenshots/product_performance.png)
