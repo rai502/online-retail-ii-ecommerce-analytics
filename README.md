@@ -312,3 +312,93 @@ online-retail-ii-ecommerce-analytics/
 └── Documentation/
     ├── data_cleaning.md
     └── business_cases.md
+
+## Skills Demonstrated
+
+This project demonstrates practical skills in:
+
+### Data Preparation
+- Data cleaning and validation
+- Missing-value investigation
+- Duplicate detection
+- Data type management
+- Data quality checks
+- Feature/flag creation
+
+### SQL & Data Analysis
+- Filtering and aggregation
+- GROUP BY and HAVING
+- CASE WHEN
+- Common Table Expressions (CTEs)
+- JOINs
+- Window functions
+- Customer segmentation
+- Revenue and AOV analysis
+- Year-over-year comparisons
+- Product and customer concentration analysis
+
+### Business Analysis
+- Business problem framing
+- Root-cause investigation
+- Volume vs. value analysis
+- Customer behavior analysis
+- Market performance analysis
+- Product performance analysis
+- Data-quality validation
+- Translating analytical findings into business insights
+
+### Data Visualization
+- Power BI dashboard development
+- KPI design
+- Trend analysis
+- Market comparisons
+- Product analysis
+- Executive-level reporting
+
+---
+
+## Important Data Limitations
+
+The dataset has several limitations that were considered during the
+analysis.
+
+- December 2011 is incomplete, with data available only through December 9,
+  2011. Therefore, December 2011 was not treated as a complete month for
+  year-over-year or month-over-month conclusions.
+- A significant number of transactions have missing Customer IDs.
+- Negative quantities are not automatically treated as customer returns,
+  because they can also represent operational adjustments.
+- Zero-price transactions were retained for data-quality and audit purposes
+  but excluded from relevant revenue and price analyses.
+- Operational transaction codes were excluded from merchandise-level product
+  analysis.
+- Some country-level and customer-level results contain small sample sizes
+  and should therefore be interpreted with caution.
+
+---
+
+## How to Reproduce the Analysis
+
+1. Obtain the Online Retail II dataset.
+2. Load the raw data into Power Query.
+3. Apply the documented cleaning and validation steps.
+4. Export the cleaned dataset.
+5. Create the PostgreSQL table using the provided SQL structure.
+6. Import the cleaned data into PostgreSQL.
+7. Run the SQL business-case queries in the `SQL/` folder.
+8. Open the Power BI file from the `Power_BI/` folder to explore the
+   dashboard.
+
+---
+
+## Project Outcome
+
+This project demonstrates an end-to-end approach to e-commerce business
+analytics:
+
+**Data Cleaning → Data Validation → SQL Analysis → Business Investigation
+→ Insight Generation → Power BI Visualization**
+
+The focus of the project is not only on producing metrics, but on
+investigating business questions, validating the underlying data, identifying
+drivers, and communicating findings in a business context.
